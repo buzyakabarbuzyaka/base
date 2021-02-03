@@ -1,0 +1,23 @@
+server:
+  APP_PORT: 9000
+  MODE: debug
+
+#  // DebugMode indicates gin mode is debug.
+#  DebugMode = "debug"
+#  // ReleaseMode indicates gin mode is release.
+#  ReleaseMode = "release"
+#  // TestMode indicates gin mode is test.
+#  TestMode = "test"
+
+logger:
+  LEVEL: DEBUG
+  ERR_OUT: log/err.log
+  ALL_OUT: log/all.log
+
+#  "PANIC" == logrus.PanicLevel
+#  "FATAL" == logrus.FatalLevel
+#  "ERROR" == logrus.ErrorLevel
+#  "WARNING" == logrus.WarnLevel
+#  "INFO" == logrus.InfoLevel
+#  "DEBUG" == logrus.DebugLevel
+#  "TRACE" == logrus.TraceLevel
